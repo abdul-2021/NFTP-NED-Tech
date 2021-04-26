@@ -1,2 +1,2 @@
 # NFTP-NED-Tech
-Class Material
+This repo is for NFTP NED TECH class
