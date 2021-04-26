@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    margin: 5px 10px 15px 20px;
+    background: #5e9bf7;
+    color: #6127e7;
+}
+
+table,
+th,
+td {
+    text-align: left;
+    border: solid 1px #ff0000;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px 100px;
+}
+
+.special-para{
+    background-color:darkgreen;
+}
+
+.mota-text{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 5px 10px;
+}
