@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.a {
+  white-space: nowrap;
+}
+p.a:first-letter {font-size:42px;}
+p.b::first-line {font-weight:bold; font-size:42px; color: #f00;}
+p.b {
+  white-space: normal;
+}
+
+p.c {
+  white-space: pre;
+}
+</style>
+</head>
+<body>
+
+<h1>The white-space Property</h1>
+
+<h2>white-space: nowrap:</h2>
+<p class="a">
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+</p>
+
+<h2>white-space: normal:</h2>
+<p class="b">
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+
+<br>
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            width: 800px;
+            margin: auto;
+        }
+        .row{
+            width: 100%;
+            border: 1px solid #f00;
+            height: 200px;
+            margin: 5px;
+        }
+
+        .two-column-container{
+            display: flex;            
+            flex-flow: row wrap;
+        }
+</p>
+
+<h2>white-space: pre:</h2>
+<p class="c">
+	.container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            width: 800px;
+            margin: auto;
+        }
+        .row{
+            width: 100%;
+            border: 1px solid #f00;
+            height: 200px;
+            margin: 5px;
+        }
+
+        .two-column-container{
+            display: flex;            
+            flex-flow: row wrap;
+        }
+</p>
+
+</body>
+</html>
